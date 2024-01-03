@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(124, 16, 99);
+}
+
+.h1{
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.p{
+    background-color: blueviolet;
+    /* text-shadow: 1px 3px 3px; */
+    color: aliceblue;
+    /* border: 5px solid teal; */
+    text-align: justify;
+}
+
+.h4{
+     text-align: center;
+     font-weight: bold;
+     font-style: italic;
+     color: aliceblue;
+     
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #f5f4cce2;
+    border-radius: 5px;
+    box-shadow: 4px 7px 7px 0px #b3aaaa42;
+    cursor: pointer;
+    margin: 5px;
+    transition: 400ms;
+}
+
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.singup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+}
+
+h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h5{
+    text-align: center;
+    font-style: italic;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #054434;
+    color: white;
+    font-size: 18px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    
+}
+
+.pp{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
